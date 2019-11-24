@@ -1,0 +1,100 @@
+body {
+	padding-top: 0px;
+	background-color: black;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#jeux:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+#cases {
+
+	
+		display : flex;
+		flex-wrap : wrap;
+		flex-direction : row;
+		align-items : center;
+		justify-content : center;
+		position : relative;
+		margin : 0 auto;
+		margin-left: 20%;
+		margin-right: 20%;
+}
+
+
+
+#cases:after{
+
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.boutonJeux {
+	height: 300px;
+	width: 300px;
+	display: flex;
+  justify-content: space-around;
+	border-radius: 15px;
+	
+}
+
+#rouge-off {
+	background-color: #550000;
+	border: 100%;
+}
+
+#jaune-off {
+	background-color: #D3D69F;
+	border: 100%;}
+
+#vert-off {
+	clear: both;
+	background-color: #005500;
+	border: 100%;}
+
+#bleu-off {
+	background-color: #000055;
+	border: 100%;}
+
+#rouge-off:hover {
+	background-color: #770000;
+}
+
+#jaune-off:hover {
+	background-color: #CFD283;
+}
+
+#vert-off:hover {
+	background-color: #007700;
+}
+
+#bleu-off:hover {
+	background-color: #000077;
+}
+
+#rouge-on {
+	background-color: #FF0000;
+	border: 100%;}
+
+#jaune-on {
+	background-color: yellow;
+	border: 100%;}
+
+#vert-on {
+	clear: both;
+	background-color: #00FF00;
+	border: 100%;}
+
+#bleu-on {
+	background-color: #0000FF;
+	border: 100%;}
+
+
